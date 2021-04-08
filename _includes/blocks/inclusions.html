@@ -1,0 +1,15 @@
+<section id="inclusions" class="inclusions body-padding">
+  <h2 class="impact-heading xl-heading opacify center">What's Included</h2>
+  <div class="grid-noGutter-spaceAround padding-md">
+    {% for inclusion in page.inclusions %}
+    <div class="col-3_md-4_sm-6 center">
+      <div class="inclusions-icon">
+        <img src="{{inclusion.icon_image}}" alt="Coworking space with {{inclusion.title}} in Chiang Mai, Draper Startup House">
+      </div>
+      <h4 class="inclusions-title">
+        {{inclusion.title}}
+      </h4>
+    </div>
+    {% endfor %}
+  </div>
+</section>
