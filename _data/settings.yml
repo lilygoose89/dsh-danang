@@ -1,8 +1,8 @@
 basics:
   site_title: Draper Startup House Da Nang
-  site_base_url: 'https://connectinchiangmai.com'
+  site_base_url: 'https:/connectinvietnam.com'
   contact_email: chiangmai@draperstartuphouse.com
-  phone_number: '+66925616023'
+  phone_number:
   address_html: >-
     <p>12/8 Nimmanhaemin Soi 13<br />Tambon Suthep Amphur Muang<br />Da Nang
     50200</p>
@@ -15,7 +15,7 @@ social:
   youtube_url: 'https://youtube.com'
   linkedin_url: 'https://www.linkedin.com/company/draperstartuphouse/'
 seo:
-  fb_app_id: 123456789
+  fb_app_id:
   keywords:
     - Da Nang
     - Da Nang coworking
