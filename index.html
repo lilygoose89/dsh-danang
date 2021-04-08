@@ -7,6 +7,12 @@ description: >-
   build your business and GO BIG!
 preview_image: assets/images/placeholder-007.jpg
 header_image: assets/images/DSH-CM-Cafe-17.JPG
+intro:
+  header: Connecting you to Da Nang
+  description:   Arts, culture, creativity, entrepreneurship and more come together in Da Nang, Thailand. Whether you've come for the sunshine, the coffee culture, or to connect with the city's vibrant digital nomad community, we'll tap you in to the best Da Nang has to offer. Our cafe, coworking space and hostel is a gathering place for entrepreneurs, startups, and anybody seeking a supportive community. Visit us today at our location in Nimmanhaemin.
+  intro_image: /assets/images/DSH-CM-Hostel-Front-2.png
+  hours: Open Mon to Sat 7am - 6pm | 24hrs for members
+  googlemaps: https://goo.gl/maps/VwtCt97is51HbCf3A
 features:
   - title: Hostel
     subtitle: Stay with Us
@@ -148,17 +154,15 @@ services:
   <section class="body-padding py-4">
     <div class="grid">
         <div class="col-6_md-12 py-3">
-          <h3>Connecting you to Da Nang</h3>
-          <p>
-            Arts, culture, creativity, entrepreneurship and more come together in Da Nang, Thailand. Whether you've come for the sunshine, the coffee culture, or to connect with the city's vibrant digital nomad community, we'll tap you in to the best Da Nang has to offer. Our cafe, coworking space and hostel is a gathering place for entrepreneurs, startups, and anybody seeking a supportive community. Visit us today at our location in Nimmanhaemin.
-          </p>
-          <h3>Open Mon to Sat 7am - 6pm | 24hrs for members</h3>
+          <h3>{{page.intro.header}}</h3>
+          <p>{{page.intro.description}}</p>
+          <h3>{{page.intro.hours}}</h3>
           <div>
-            <a target="_blank" class="btn my-2" href="https://goo.gl/maps/VwtCt97is51HbCf3A" rel="noopener noreferrer">Location & Directions  <i class="fa fa-map-marker" aria-hidden="true"></i></a>
+            <a target="_blank" class="btn my-2" href="{{page.intro.googlemaps}}" rel="noopener noreferrer">Location & Directions  <i class="fa fa-map-marker" aria-hidden="true"></i></a>
           </div>
         </div>
         <div class="col-6_md-12 px-2 py-2">
-          <img src="/assets/images/DSH-CM-Hostel-Front-2.png" alt="draper startup house shop front" />
+          <img src="{{page.intro.intro_image}}" alt="draper startup house shop front" />
         </div>
     </div>
   </section>
