@@ -1,8 +1,8 @@
 basics:
   site_title: Draper Startup House Da Nang
-  site_base_url: 'https:/connectinvietnam.com'
+  site_base_url: 'https://connectinvietnam.com'
   contact_email: danang@draperstartuphouse.com
-  phone_number: 84907144561
+  phone_number:
   address_html: >-
     <p>38 Do Bi Street<br />My An ward, Ngu Hanh Son District<br />Da Nang,
     550000&nbsp;</p><p>&nbsp;</p>
@@ -12,7 +12,7 @@ social:
   instagram_handle: '@dshdanang'
   twitter_url:
   twitter_handle:
-  youtube_url: 'https://youtube.com'
+  youtube_url:
   linkedin_url: 'https://www.linkedin.com/company/draperstartuphouse/'
   eventbrite_url: 'https://www.eventbrite.com/o/draper-startup-house-da-nang-33050536537'
 seo:
