@@ -1,20 +1,22 @@
 basics:
-  site_title: Draper Startup House Da Nang
-  site_base_url: 'https://connectinvietnam.com'
-  contact_email: danang@draperstartuphouse.com
+  site_title: Draper Startup House Vietnam
+  site_base_url: https://connectinvietnam.com
+  contact_email: vietnam@draperstartuphouse.com
   phone_number:
   address_html: >-
-    <p>38 Do Bi Street<br />My An Ward, Ngu Hanh Son District<br />Da Nang,
-    550000&nbsp;</p><p>&nbsp;</p>
+    <p><a href="https://draperstartuphouse.com/da-nang-viet-nam">Draper Startup
+    House at Enouvo Space in Da Nang</a></p><p><a target="_blank" rel="noopener"
+    href="https://draperstartuphouse.com/hochiminhcity">Draper Startup House at
+    KAIROS in Ho Chi Minh City</a></p>
 social:
-  facebook_url: 'https://www.facebook.com/dshdanang/'
-  instagram_url: 'https://www.instagram.com/dshdanang/'
-  instagram_handle: '@dshdanang'
-  twitter_url: 'https://twitter.com/dshglobal'
+  facebook_url: https://www.facebook.com/draperstartuphousevietnam
+  instagram_url: https://www.instagram.com/dshvietnam/
+  instagram_handle: '@dshvietnam'
+  twitter_url: https://twitter.com/dshglobal
   twitter_handle: '@dshglobal'
-  youtube_url: 'https://www.youtube.com/channel/UCKoQpAKfCRFRCJvtFzfHWaQ'
-  linkedin_url: 'https://www.linkedin.com/company/draperstartuphouse/'
-  eventbrite_url: 'https://www.eventbrite.com/o/draper-startup-house-da-nang-33050536537'
+  youtube_url: https://www.youtube.com/channel/UCKoQpAKfCRFRCJvtFzfHWaQ
+  linkedin_url: https://www.linkedin.com/company/draperstartuphouse/
+  eventbrite_url: https://www.eventbrite.com/o/draper-startup-house-da-nang-33050536537
 seo:
   fb_app_id:
   keywords:
@@ -24,7 +26,10 @@ seo:
     - Da Nang startup
     - Da Nang digital nomads
     - Da Nang hostel
-  description: Draper Startup House connects you to Da Nang's startup ecosystem.
+    - Ho Chi Minh City coworking
+    - hcmc coworking
+    -
+  description: Draper Startup House connects you to the vibrant Vietnam startup ecosystem.
 colors:
   white_color: '#f2f2f2'
   gray_color: '#555555'
